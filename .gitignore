@@ -1,0 +1,7 @@
+# data
+/CAFA3_training_data/*
+/data/*
+
+# compressed files from the assignment
+*.zip
+*.tgz
