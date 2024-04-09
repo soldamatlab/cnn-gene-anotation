@@ -27,7 +27,7 @@ tail(sort(table(annotGO$go)),20)
 tail(sort(table(annotGO$go[annotGO$ont=="P"])),20)
 length(annotGO$protein[annotGO$go=="GO:0006357"])
 
-gosearch <- tail(sort(table(annotGO$go[annotGO$ont=="P"])),20)
+gosearch <- tail(sort(table(annotGO$go[annotGO$ont=="P"])),40)
 get_names(rownames(gosearch))
 
 #' Get child terms in BP ontology

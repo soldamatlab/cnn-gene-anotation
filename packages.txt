@@ -5,3 +5,5 @@ apt-get install python
 numpy
 Biopython
 keras
+matplotlib
+pickle (to save training history, can be disabled)
